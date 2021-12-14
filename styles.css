@@ -118,8 +118,14 @@ li a.active, li a:hover{
 img{
     width: 50%;
 }
-video {
-    width: 50%;
+
+.vid {
+    width: 960px;
+    height: 540px;
+}
+.vid2 {
+    width: 540px;
+    height: 860px;
 }
 
 
@@ -290,8 +296,13 @@ ul {
     img {
         width: 100%;
     }
-    video {
-        width: 100%;
+ 
+    .vid {
+        width: 340px;
+        height: 200px;
     }
-
+    .vid2 {
+        width: 320px;
+        height: 570px;
+    }
 }
