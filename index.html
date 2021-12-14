@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cabral Fernando</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo.png">
+    <script src="https://kit.fontawesome.com/f8fe1e3b0f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="nav">
+        <ul class="logo">
+            <a href="#info"><input type="image" src="img/logo.png" width="60px" height="60px"></a>
+        </ul>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        
+            <ul class="menu">
+                <li class="menu__li" data-ref="info"><a href="#info">Inicio</a></li>
+                <li class="menu__li" data-ref="hab"><a href="#hab">Habilidades</a></li>
+                <li class="menu__li" data-ref="port"><a href="#port">Portafolio</a></li>
+                <li class="menu__li" data-ref="contact"><a href="#contact">Contacto</a></li>
+            </ul>
+            
+    </nav>
+
+    <section id="info">
+        <div class="info">
+            <h1>Cabral Fernando</h1>
+            <h2>Developer Web - Diseño y edición de imagén - Edición de video</h2>
+    </div>
+    </section>
+
+    <section id="hab">
+        <div class="hab">
+            <h2>Habilidades</h2>
+            <img class="ico" src="img/hab/html.png">
+            <img class="ico" src="img/hab/css.png">
+            <img class="ico" src="img/hab/ps.png">
+            <img class="ico" src="img/hab/pr.png">
+        </div>
+    </section>
+
+    <section id="port">
+        <div class="port">
+            <h2>Portafolio</h2>
+            <h3>Isalei - Tienda online</h3>
+            <img src="img/port/isalei.png"><br>
+            <a href="https://www.isalei.ml" target="_BLANK">Visitar Sitio</a></li>
+            <h3>OUTRO YouTube</h3>
+            <video controls play muted><source src="img/port/outro.mp4" type="video/mp4"></video>
+            <h3>Invitación cumpleaños</h3>
+            <video controls play muted><source src="img/port/jurassic.mp4" type="video/mp4"></video>
+            <h3>Invitación casamiento</h3>
+            <video controls play muted><source src="img/port/cas.mp4" type="video/mp4"></video>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="content">
+            <h1 class="logo2">Contacto</h1>
+            <div class="contact-wrapper animated bounceInUp">
+                <div class="contact-form">
+                    <h3>Contáctame</h3>
+                    <form action="">
+                        <p>
+                            <label>Nombre</label>
+                            <input type="text" name="fullname">
+                        </p>
+                        <p>
+                            <label>E-mail</label>
+                            <input type="email" name="email">
+                        </p>
+                        <p>
+                            <label>Num celular</label>
+                            <input type="tel" name="phone">
+                        </p>
+                        <p>
+                            <label>Asunto</label>
+                            <input type="text" name="affair">
+                        </p>
+                        <p class="block">
+                           <label>Mensaje</label> 
+                            <textarea name="message" rows="3"></textarea>
+                        </p>
+                        <p class="block">
+                            <button>
+                                Enviar
+                            </button>
+                        </p>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h4>Más info</h4>
+                    <ul>
+                        <li><i class="fab fa-whatsapp"></i> +54 9 11 7368 2456</li>
+                        <li><i class="far fa-envelope"></i> ccabralfernando@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Buenos Aires, Argentina</li>
+                    </ul>
+                    <p>www.cabralfernando.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src='main.js'></script>
+</body>
+</html>
