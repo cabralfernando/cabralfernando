@@ -26,7 +26,7 @@ nav{
 }
 
 .logo{
-    margin: 10px;
+    margin: 18px;
     float: left;
 }
 nav ul{
@@ -73,7 +73,7 @@ li a.active, li a:hover{
     margin: 10px
 }
 .info h1:hover{
-    transition: color 1s ease-out;
+    transition: color .8s ease-out;
     color: #f06495;
 }
 
@@ -95,7 +95,13 @@ li a.active, li a:hover{
 .hab img {
     height: 85px;
     width: 85px;
-    margin: 10px 25px;
+    margin: 45px 30px;
+}
+
+.hab img:hover {
+    transition:  .6s ease-out;
+    height: 120px;
+    width: 120px;
 }
 
 .port {
@@ -222,13 +228,10 @@ ul {
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 @media screen and (max-width: 800px){
-    .logo {
-        height: 50px;
-        width: 50px;
-    }
+    
     .info {
         padding-top: 200px;
-        padding-bottom: 75px;
+        padding-bottom: 65px;
     }
     .content {
         width: 100%;
@@ -283,6 +286,11 @@ ul {
         height: 48px;
         width: 48px;
         margin: 10px;
+    }
+    .hab img:hover {
+        transition:  .4s ease-out;
+        height: 62px;
+        width: 62px;
     }
 
 
