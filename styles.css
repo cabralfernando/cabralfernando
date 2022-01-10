@@ -256,13 +256,7 @@ ul {
     .logo{
         margin: 18px;
     }
-    .info {
-        padding-top: 200px;
-        padding-bottom: 65px;
-    }
-    .info h2 {
-        font-size: 15px;
-    }
+
     .content {
         width: 100%;
     }
@@ -301,12 +295,14 @@ ul {
 
     .info {
         margin: 15px 0;
+        padding-top: 200px;
+        padding-bottom: 65px;
     }
     .info h1 {
         font-size: 40px;
     }
     .info h2 {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .hab h2 {
