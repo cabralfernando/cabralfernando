@@ -26,7 +26,7 @@ nav{
 }
 
 .logo{
-    margin: 18px;
+    margin: 35px;
     float: left;
 }
 nav ul{
@@ -249,6 +249,9 @@ ul {
 
 @media screen and (max-width: 800px){
     
+    .logo{
+        margin: 18px;
+    }
     .info {
         padding-top: 200px;
         padding-bottom: 65px;
@@ -323,7 +326,7 @@ ul {
     
     img {
         width: 100%;
-        
+
     }
  
     .vid {
