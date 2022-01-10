@@ -260,6 +260,9 @@ ul {
         padding-top: 200px;
         padding-bottom: 65px;
     }
+    .info h2 {
+        font-size: 15px;
+    }
     .content {
         width: 100%;
     }
