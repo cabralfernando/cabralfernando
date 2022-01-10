@@ -237,6 +237,10 @@ ul {
 .copy i {
     font-size: 35px;
 }
+.copy i:hover {
+    transition: color .3s ease-out;
+    color: #f06495;
+}
 
 .fa-map-marker-alt {
     padding-right: 8px;
