@@ -222,13 +222,24 @@ ul {
     text-align: center;
     margin: 0 0 1rem 0;
 }
-
+.copy {
+    display: inline-block;
+    padding: 10px 25px;
+}
 .copy a{
     text-decoration: none;
 }
 
 .copy a:hover{
     color: #f06495;
+}
+
+.copy i {
+    font-size: 35px;
+}
+
+.fa-map-marker-alt {
+    padding-right: 8px;
 }
 
 
@@ -323,6 +334,10 @@ ul {
         height: 570px;
     }
     .copy {
-        font-size: 14px;
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+    .copy i {
+        font-size: 30px;
     }
 }
