@@ -95,8 +95,8 @@ li a.active, li a:hover{
     margin: 10px;
 }
 .hab img {
-    height: 85px;
-    width: 85px;
+    height: 80px;
+    width: 80px;
     margin: 30px;
 }
 
@@ -312,7 +312,7 @@ ul {
     }
     .hab img {
         height: 48px;
-        width: 51px;
+        width: 48px;
         margin: 10px;
     }
     .hab img:hover {
