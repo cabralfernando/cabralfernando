@@ -97,13 +97,13 @@ li a.active, li a:hover{
 .hab img {
     height: 80px;
     width: 80px;
-    margin: 30px;
+    margin: 20px 30px;
 }
 
 .hab img:hover {
     transition:  .6s ease-out;
-    height: 120px;
-    width: 120px;
+    height: 110px;
+    width: 110px;
 }
 
 .port {
