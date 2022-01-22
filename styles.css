@@ -42,13 +42,15 @@ nav ul li{
 }
 nav ul li a{
     font-size: 22px;
-    padding: 7px;
+    padding: 1px;
     border-radius: 3px;
     text-decoration: none;
+    color: #fff;
 }
 li a.active, li a:hover{
-    color: #00132c;
+    color: #000;
     transition: .5s;
+    font-size: 25px;
 }
 .checkbtn{
     font-size: 30px;
