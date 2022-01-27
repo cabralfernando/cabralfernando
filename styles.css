@@ -41,7 +41,7 @@ nav ul li{
     margin: 0 5px;
 }
 nav ul li a{
-    font-size: 22px;
+    font-size: 20px;
     padding: 1px;
     border-radius: 3px;
     text-decoration: none;
@@ -68,12 +68,12 @@ li a.active, li a:hover{
 
 
 .info {
-    margin-top: 22%;
+    margin-top: 20%;
     margin-bottom: 22%;
 }
 .info h1{
 	text-align: center;
-	font-size: 65px;
+	font-size: 70px;
     margin: 10px
 }
 .info h1:hover{
@@ -84,6 +84,9 @@ li a.active, li a:hover{
 .info h2{
 	text-align: center;
 	font-size: 15px;
+}
+.info ul {
+    text-align: center;
 }
 
 .hab {
