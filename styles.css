@@ -285,9 +285,6 @@ ul {
         top: 60px;
         left: -100%;
         text-align: center;
-        transition: all .5s;
-        opacity: .8;
-        backdrop-filter: blur(10px);
     }
     nav ul li{
         display: block;
@@ -365,7 +362,7 @@ ul {
         padding: 8px 14px;
     }
     .copy i {
-        font-size: 29px;
+        font-size: 26px;
     }
     .copy a:hover{
         font-size: 13px;
