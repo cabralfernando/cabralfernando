@@ -273,13 +273,7 @@ ul {
     .logo{
         margin: 18px;
     }
-
-    .content {
-        width: 100%;
-    }
-    .content h1 {
-        margin: 10px;
-    }
+    
     .checkbtn{
         display: block;
     }
@@ -311,11 +305,9 @@ ul {
         left:0;
     }
 
-    
-
     .info {
         margin: 15px 0;
-        padding-top: 200px;
+        padding-top: 220px;
         padding-bottom: 60px;
     }
     .info h1 {
@@ -335,10 +327,9 @@ ul {
     }
     .hab img:hover {
         transition:  .4s ease-out;
-        height: 48px;
-        width: 48px;
+        height: 50px;
+        width: 50px;
     }
-
 
     .port h2{
         font-size: 39px;
@@ -346,7 +337,6 @@ ul {
     .port h3 {
         font-size: 20px;
     }
-    
     img {
         width: 100%;
 
@@ -361,6 +351,12 @@ ul {
         height: 570px;
     }
 
+    .content {
+        width: 100%;
+    }
+    .content h1 {
+        margin: 10px;
+    }
     .logo2 {
         font-size: 39px;
     }
@@ -374,5 +370,6 @@ ul {
     .copy a:hover{
         font-size: 13px;
     }
+
     
 }
