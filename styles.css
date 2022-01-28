@@ -73,8 +73,8 @@ li a.active, li a:hover{
 }
 .info h1{
 	text-align: center;
-	font-size: 70px;
-    margin: 10px
+	font-size: 72px;
+    margin: 5px;
 }
 .info h1:hover{
     transition: color .8s ease-out;
@@ -83,11 +83,16 @@ li a.active, li a:hover{
 
 .info h2{
 	text-align: center;
-	font-size: 15px;
+	font-size: 16px;
+    margin-top: 0;
 }
 .info ul {
     text-align: center;
 }
+.redes {
+    margin-top: 10px;
+}
+
 
 .hab {
     font-size: 40px;
@@ -316,14 +321,14 @@ ul {
         font-size: 40px;
     }
     .hab img {
-        height: 48px;
-        width: 48px;
-        margin: 10px;
+        height: 45px;
+        width: 45px;
+        margin: 7px;
     }
     .hab img:hover {
         transition:  .4s ease-out;
-        height: 62px;
-        width: 62px;
+        height: 48px;
+        width: 48px;
     }
 
 
