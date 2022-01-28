@@ -120,7 +120,7 @@ li a.active, li a:hover{
     font-size: 40px;
     text-align: center;
     margin: 10px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 .port h2 {
     margin: 10px;
@@ -228,15 +228,19 @@ ul {
     background: #000;
     opacity: .75;
     backdrop-filter: blur(2px);
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
-.contact-info h4, .contact-info ul, .contact-info p {
+.contact-info ul, .contact-info p {
     text-align: center;
-    margin: 0 0 1rem 0;
+    margin: 5px 0 10px 0;
 }
+
 .copy {
     display: inline-block;
-    padding: 10px 25px;
+    padding: 5px 15px;
 }
 .copy a{
     text-decoration: none;
@@ -244,10 +248,11 @@ ul {
 
 .copy a:hover{
     color: #f06495;
+    font-size: 16px;
 }
 
 .copy i {
-    font-size: 35px;
+    font-size: 32px;
 }
 .copy i:hover {
     transition: color .3s ease-out;
@@ -271,6 +276,9 @@ ul {
 
     .content {
         width: 100%;
+    }
+    .content h1 {
+        margin: 10px;
     }
     .checkbtn{
         display: block;
@@ -308,17 +316,17 @@ ul {
     .info {
         margin: 15px 0;
         padding-top: 200px;
-        padding-bottom: 65px;
+        padding-bottom: 60px;
     }
     .info h1 {
-        font-size: 40px;
+        font-size: 39px;
     }
     .info h2 {
         font-size: 15px;
     }
 
     .hab h2 {
-        font-size: 40px;
+        font-size: 39px;
     }
     .hab img {
         height: 45px;
@@ -333,7 +341,7 @@ ul {
 
 
     .port h2{
-        font-size: 40px;
+        font-size: 39px;
     }
     .port h3 {
         font-size: 20px;
@@ -352,11 +360,19 @@ ul {
         width: 320px;
         height: 570px;
     }
+
+    .logo2 {
+        font-size: 39px;
+    }
     .copy {
         font-size: 13px;
-        padding: 10px 14px;
+        padding: 8px 14px;
     }
     .copy i {
         font-size: 29px;
     }
+    .copy a:hover{
+        font-size: 13px;
+    }
+    
 }
